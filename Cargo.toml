@@ -1,0 +1,20 @@
+[package]
+name = "gitlab"
+version = "0.1.0"
+authors = ["William Lee <wlee@mochify.com>"]
+description = """
+Rust library for Gitlab API v4. Comes with a simple CLI tool.
+"""
+keywords = ["gitlab"]
+license = "Apache 2.0"
+
+[dependencies]
+log = "0.3"
+reqwest = "0.7"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+error-chain = "0.10"
+clap = "~2.25.0"
+url = "~1.5.0"
+hyper = "^0.11"
